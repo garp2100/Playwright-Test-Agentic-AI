@@ -1,0 +1,342 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - text: View the
+    - link "Documentation" [ref=e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e9] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e10] [cursor=pointer]
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - link "Practice Software Testing - Toolshop" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e32]:
+          - menubar "Main menu" [ref=e33]:
+            - menuitem [ref=e34]:
+              - link "Home" [ref=e35] [cursor=pointer]:
+                - /url: /
+            - menuitem [ref=e36]:
+              - button "Categories" [ref=e37] [cursor=pointer]
+            - menuitem [ref=e38]:
+              - link "Contact" [ref=e39] [cursor=pointer]:
+                - /url: /contact
+            - menuitem [ref=e40]:
+              - link "Sign in" [ref=e41] [cursor=pointer]:
+                - /url: /auth/login
+          - button "Select language" [ref=e43] [cursor=pointer]: EN
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - heading "Practice Software Testing - Toolshop" [level=1] [ref=e50]
+      - paragraph [ref=e51]:
+        - img "Banner" [ref=e52]
+      - separator [ref=e53]
+      - generic [ref=e54]:
+        - text: Enjoyed testing this app? Level up with hands-on software testing courses.
+        - link "Explore courses" [ref=e57] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io/?utm_source=pst&utm_medium=homepage&utm_campaign=app_promo
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Sort" [level=4] [ref=e60]
+        - separator [ref=e64]
+        - combobox "sort" [ref=e67]:
+          - option
+          - option "Name (A - Z)"
+          - option "Name (Z - A)"
+          - option "Price (High - Low)" [selected]
+          - option "Price (Low - High)"
+          - option "CO₂ Rating (A - E)"
+          - option "CO₂ Rating (E - A)"
+        - heading "Price Range" [level=4] [ref=e68]
+        - separator [ref=e72]
+        - generic "ngx-slider" [ref=e74]:
+          - slider "ngx-slider" [ref=e79] [cursor=pointer]
+          - slider "ngx-slider-max" [ref=e80] [cursor=pointer]
+          - generic [ref=e81]: "0"
+          - generic [ref=e82]: "200"
+          - generic [ref=e83]: "1"
+          - generic [ref=e84]: "100"
+        - heading "Search" [level=4] [ref=e86]
+        - separator [ref=e90]
+        - generic [ref=e92]:
+          - generic [ref=e93]: Search
+          - textbox "Search" [ref=e94]
+          - button "X" [ref=e95] [cursor=pointer]
+          - button "Search" [ref=e96] [cursor=pointer]
+        - heading "Filters" [level=4] [ref=e97]
+        - separator [ref=e101]
+        - heading "By category:" [level=4] [ref=e102]
+        - group "Categories" [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - checkbox "Hand Tools" [ref=e107]
+              - text: Hand Tools
+            - list [ref=e108]:
+              - group "Categories" [ref=e109]:
+                - generic [ref=e112]:
+                  - checkbox "Hammer" [ref=e113]
+                  - text: Hammer
+                - generic [ref=e115]:
+                  - checkbox "Hand Saw" [ref=e116]
+                  - text: Hand Saw
+                - generic [ref=e118]:
+                  - checkbox "Wrench" [ref=e119]
+                  - text: Wrench
+                - generic [ref=e121]:
+                  - checkbox "Screwdriver" [ref=e122]
+                  - text: Screwdriver
+                - generic [ref=e124]:
+                  - checkbox "Pliers" [ref=e125]
+                  - text: Pliers
+                - generic [ref=e127]:
+                  - checkbox "Chisels" [ref=e128]
+                  - text: Chisels
+                - generic [ref=e130]:
+                  - checkbox "Measures" [ref=e131]
+                  - text: Measures
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - checkbox "Power Tools" [ref=e134]
+              - text: Power Tools
+            - list [ref=e135]:
+              - group "Categories" [ref=e136]:
+                - generic [ref=e139]:
+                  - checkbox "Grinder" [ref=e140]
+                  - text: Grinder
+                - generic [ref=e142]:
+                  - checkbox "Sander" [ref=e143]
+                  - text: Sander
+                - generic [ref=e145]:
+                  - checkbox "Saw" [ref=e146]
+                  - text: Saw
+                - generic [ref=e148]:
+                  - checkbox "Drill" [ref=e149]
+                  - text: Drill
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - checkbox "Other" [ref=e152]
+              - text: Other
+            - list [ref=e153]:
+              - group "Categories" [ref=e154]:
+                - generic [ref=e157]:
+                  - checkbox "Tool Belts" [ref=e158]
+                  - text: Tool Belts
+                - generic [ref=e160]:
+                  - checkbox "Storage Solutions" [ref=e161]
+                  - text: Storage Solutions
+                - generic [ref=e163]:
+                  - checkbox "Workbench" [ref=e164]
+                  - text: Workbench
+                - generic [ref=e166]:
+                  - checkbox "Safety Gear" [ref=e167]
+                  - text: Safety Gear
+                - generic [ref=e169]:
+                  - checkbox "Fasteners" [ref=e170]
+                  - text: Fasteners
+        - heading "By brand:" [level=4] [ref=e172]
+        - group "Brands" [ref=e173]:
+          - generic [ref=e176]:
+            - checkbox "ForgeFlex Tools" [ref=e177]
+            - text: ForgeFlex Tools
+          - generic [ref=e179]:
+            - checkbox "MightyCraft Hardware" [ref=e180]
+            - text: MightyCraft Hardware
+        - heading "Sustainability:" [level=4] [ref=e182]
+        - group "Eco-Friendly Products" [ref=e183]:
+          - generic [ref=e186]:
+            - checkbox "Show only eco-friendly products" [ref=e187]
+            - text: Show only eco-friendly products
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - 'link "Wood Carving Chisels Compare Wood Carving Chisels CO₂: A B C D E $45.23" [ref=e401] [cursor=pointer]':
+            - /url: /product/01M7PQ9P541VT6HDZXQH99NZKK
+            - generic [ref=e402]:
+              - img "Wood Carving Chisels" [ref=e403]
+              - button "Compare" [ref=e404]
+            - generic [ref=e408]:
+              - heading "Wood Carving Chisels" [level=5] [ref=e409]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e410]:
+                - text: "CO₂:"
+                - generic [ref=e411]: A
+                - generic [ref=e412]: B
+                - generic [ref=e413]: C
+                - generic [ref=e414]: D
+                - generic [ref=e415]: E
+            - generic [ref=e416]: $45.23
+          - 'link "Construction Helmet ECO Compare Construction Helmet CO₂: A B C D E $41.29" [ref=e418] [cursor=pointer]':
+            - /url: /product/01M7PQ9P5TJ26SJ8W4SXSA7GG5
+            - generic [ref=e419]:
+              - img "Construction Helmet" [ref=e420]
+              - generic [ref=e421]: ECO
+              - button "Compare" [ref=e425]
+            - generic [ref=e429]:
+              - heading "Construction Helmet" [level=5] [ref=e430]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e431]:
+                - text: "CO₂:"
+                - generic [ref=e432]: A
+                - generic [ref=e433]: B
+                - generic [ref=e434]: C
+                - generic [ref=e435]: D
+                - generic [ref=e436]: E
+            - generic [ref=e437]: $41.29
+          - 'link "Open-end Spanners (Set) Compare Open-end Spanners (Set) CO₂: A B C D E $38.51" [ref=e439] [cursor=pointer]':
+            - /url: /product/01M7PQ9P4XZVP3A5BR3DJF0A6W
+            - generic [ref=e440]:
+              - img "Open-end Spanners (Set)" [ref=e441]
+              - button "Compare" [ref=e442]
+            - generic [ref=e446]:
+              - heading "Open-end Spanners (Set)" [level=5] [ref=e447]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e448]:
+                - text: "CO₂:"
+                - generic [ref=e449]: A
+                - generic [ref=e450]: B
+                - generic [ref=e451]: C
+                - generic [ref=e452]: D
+                - generic [ref=e453]: E
+            - generic [ref=e454]: $38.51
+          - 'link "Super-thin Protection Gloves ECO Compare Super-thin Protection Gloves CO₂: A B C D E $38.45" [ref=e456] [cursor=pointer]':
+            - /url: /product/01M7PQ9P5RP0B519BYQAWM4MN1
+            - generic [ref=e457]:
+              - img "Super-thin Protection Gloves" [ref=e458]
+              - generic [ref=e459]: ECO
+              - button "Compare" [ref=e463]
+            - generic [ref=e467]:
+              - heading "Super-thin Protection Gloves" [level=5] [ref=e468]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e469]:
+                - text: "CO₂:"
+                - generic [ref=e470]: A
+                - generic [ref=e471]: B
+                - generic [ref=e472]: C
+                - generic [ref=e473]: D
+                - generic [ref=e474]: E
+            - generic [ref=e475]: $38.45
+          - 'link "Safety Helmet Face Shield ECO Compare Safety Helmet Face Shield CO₂: A B C D E $35.62" [ref=e477] [cursor=pointer]':
+            - /url: /product/01M7PQ9P5NKCV49YEP86ME2J0R
+            - generic [ref=e478]:
+              - img "Safety Helmet Face Shield" [ref=e479]
+              - generic [ref=e480]: ECO
+              - button "Compare" [ref=e484]
+            - generic [ref=e488]:
+              - heading "Safety Helmet Face Shield" [level=5] [ref=e489]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e490]:
+                - text: "CO₂:"
+                - generic [ref=e491]: A
+                - generic [ref=e492]: B
+                - generic [ref=e493]: C
+                - generic [ref=e494]: D
+                - generic [ref=e495]: E
+            - generic [ref=e496]: $35.62
+          - 'link "Safety Goggles ECO Compare Safety Goggles CO₂: A B C D E $24.26" [ref=e498] [cursor=pointer]':
+            - /url: /product/01M7PQ9P5K8N4J3CCGKVPWARBM
+            - generic [ref=e499]:
+              - img "Safety Goggles" [ref=e500]
+              - generic [ref=e501]: ECO
+              - button "Compare" [ref=e505]
+            - generic [ref=e509]:
+              - heading "Safety Goggles" [level=5] [ref=e510]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e511]:
+                - text: "CO₂:"
+                - generic [ref=e512]: A
+                - generic [ref=e513]: B
+                - generic [ref=e514]: C
+                - generic [ref=e515]: D
+                - generic [ref=e516]: E
+            - generic [ref=e517]: $24.26
+          - 'link "Swiss Woodcarving Chisels Compare Swiss Woodcarving Chisels CO₂: A B C D E $22.96" [ref=e519] [cursor=pointer]':
+            - /url: /product/01M7PQ9P56W8D57CNSZN22XSM0
+            - generic [ref=e520]:
+              - img "Swiss Woodcarving Chisels" [ref=e521]
+              - button "Compare" [ref=e522]
+            - generic [ref=e526]:
+              - heading "Swiss Woodcarving Chisels" [level=5] [ref=e527]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e528]:
+                - text: "CO₂:"
+                - generic [ref=e529]: A
+                - generic [ref=e530]: B
+                - generic [ref=e531]: C
+                - generic [ref=e532]: D
+                - generic [ref=e533]: E
+            - generic [ref=e534]: $22.96
+          - 'link "Protective Gloves ECO Compare Protective Gloves CO₂: A B C D E $21.42" [ref=e536] [cursor=pointer]':
+            - /url: /product/01M7PQ9P5QEXS3QDCTE4ZFZW3A
+            - generic [ref=e537]:
+              - img "Protective Gloves" [ref=e538]
+              - generic [ref=e539]: ECO
+              - button "Compare" [ref=e543]
+            - generic [ref=e547]:
+              - heading "Protective Gloves" [level=5] [ref=e548]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e549]:
+                - text: "CO₂:"
+                - generic [ref=e550]: A
+                - generic [ref=e551]: B
+                - generic [ref=e552]: C
+                - generic [ref=e553]: D
+                - generic [ref=e554]: E
+            - generic [ref=e555]: $21.42
+          - 'link "Adjustable Wrench Compare Adjustable Wrench CO₂: A B C D E $20.33" [ref=e557] [cursor=pointer]':
+            - /url: /product/01M7PQ9P4SF1Q72JGJANG8XXZB
+            - generic [ref=e558]:
+              - img "Adjustable Wrench" [ref=e559]
+              - button "Compare" [ref=e560]
+            - generic [ref=e564]:
+              - heading "Adjustable Wrench" [level=5] [ref=e565]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e566]:
+                - text: "CO₂:"
+                - generic [ref=e567]: A
+                - generic [ref=e568]: B
+                - generic [ref=e569]: C
+                - generic [ref=e570]: D
+                - generic [ref=e571]: E
+            - generic [ref=e572]: $20.33
+        - navigation [ref=e346]:
+          - list [ref=e347]:
+            - listitem [ref=e348]:
+              - button "Previous" [ref=e574] [cursor=pointer]: «
+            - listitem [ref=e349]:
+              - button "Page-1" [ref=e350] [cursor=pointer]: "1"
+            - listitem [ref=e351]:
+              - button "Page-2" [active] [ref=e352] [cursor=pointer]: "2"
+            - listitem [ref=e353]:
+              - button "Page-3" [ref=e354] [cursor=pointer]: "3"
+            - listitem [ref=e355]:
+              - button "Page-4" [ref=e356] [cursor=pointer]: "4"
+            - listitem [ref=e357]:
+              - button "Page-5" [ref=e358] [cursor=pointer]: "5"
+            - listitem [ref=e359]:
+              - button "Next" [ref=e360] [cursor=pointer]: »
+  - contentinfo [ref=e362]:
+    - generic [ref=e364]:
+      - generic [ref=e365]: Learn & Explore
+      - generic [ref=e366]:
+        - link "Learn Test Automation Hands-on courses for Playwright, Robot Framework, APIs and more" [ref=e368] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io
+          - generic [ref=e371]:
+            - generic [ref=e372]: Learn Test Automation
+            - text: Hands-on courses for Playwright, Robot Framework, APIs and more
+        - link "API Spector Open-source API testing, mocking and contract testing" [ref=e374] [cursor=pointer]:
+          - /url: https://api-spector.dev
+          - generic [ref=e377]:
+            - generic [ref=e378]: API Spector
+            - text: Open-source API testing, mocking and contract testing
+        - link "GitHub Source code, issues and contributions" [ref=e380] [cursor=pointer]:
+          - /url: https://github.com/testsmith-io/practice-software-testing
+          - generic [ref=e383]:
+            - generic [ref=e384]: GitHub
+            - text: Source code, issues and contributions
+    - generic [ref=e385]:
+      - generic [ref=e386]:
+        - text: This is a DEMO application, used for software testing training purpose. |
+        - link "Privacy Policy" [ref=e387] [cursor=pointer]:
+          - /url: /privacy
+        - text: "| Banner photo by"
+        - link "Barn Images" [ref=e388] [cursor=pointer]:
+          - /url: https://unsplash.com/@barnimages
+        - text: "on"
+        - link "Unsplash" [ref=e389] [cursor=pointer]:
+          - /url: https://unsplash.com/photos/t5YUoHW6zRo
+        - text: .
+      - generic [ref=e390]: v2.5 | Built 2026-10-11 | Angular 20.0.5
+  - button "Open chat" [ref=e392] [cursor=pointer]
+  - button "Show live shop activity" [ref=e396] [cursor=pointer]
